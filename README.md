@@ -1,6 +1,6 @@
 # CI/CD Setup for AlmaLinux
 
-This project demonstrates a comprehensive CI/CD (Continuous Integration/Continuous Deployment) setup using Jenkins and Docker on AlmaLinux. It provides a step-by-step guide to configure an automated pipeline for building, testing, and deploying applications.
+This project highlights my work automating the build and deployment of a Node.js app using Jenkins and Docker on AlmaLinux. I set up a CI/CD pipeline to automatically pull code from Git, build a Docker image, and deploy the app in a container. This system ensures continuous integration and delivery, streamlining development by eliminating the need for manual updates.
 
 ## Table of Contents
 
@@ -10,8 +10,6 @@ This project demonstrates a comprehensive CI/CD (Continuous Integration/Continuo
 4. [Configuration](#configuration)
 5. [Usage](#usage)
 6. [Troubleshooting](#troubleshooting)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Overview
 
@@ -209,11 +207,3 @@ If you encounter a "permission denied" error when Jenkins tries to access Docker
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
 ```
-
-## Contributing
-
-Contributions to improve this CI/CD setup are welcome. Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
