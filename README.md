@@ -128,6 +128,8 @@ sudo systemctl restart jenkins
 2. Enter a project name and select "Pipeline"
 3. Configure the pipeline to use your GitHub repository
 
+![Docker PS](assets/pipeline_setting.png)
+
 ### 7. Create a Jenkinsfile
 
 Create a `Jenkinsfile` in your GitHub repository root with the following content:
@@ -192,6 +194,9 @@ Set up a webhook in your GitHub repository to trigger Jenkins builds on code pus
 To manually trigger a build:
 1. Go to your Jenkins project
 2. Click "Build Now"
+3. Expected console output:
+
+![Docker PS](assets/jenkins_success_console.png)
 
 Check running Docker containers:
 
