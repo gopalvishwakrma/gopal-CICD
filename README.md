@@ -207,7 +207,7 @@ docker ps
 
 ![Docker PS](assets/docker_ps.png)
 
-# Last output:
+## Last output:
 
 ![Docker PS](assets/last_output.png)
 
