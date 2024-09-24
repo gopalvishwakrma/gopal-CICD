@@ -207,6 +207,10 @@ docker ps
 
 ![Docker PS](assets/docker_ps.png)
 
+# Last output:
+
+![Docker PS](assets/last_output.png)
+
 ## Troubleshooting
 
 If you encounter a "permission denied" error when Jenkins tries to access Docker, add the Jenkins user to the Docker group:
