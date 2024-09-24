@@ -187,6 +187,8 @@ Set up a webhook in your GitHub repository to trigger Jenkins builds on code pus
 2. Jenkins will automatically pull the code, build the Docker image, and deploy your application
 3. Access your application at `http://your_server_ip:3000`
 
+![Jenkins Status](assets/jenkins_login.png)
+
 To manually trigger a build:
 1. Go to your Jenkins project
 2. Click "Build Now"
