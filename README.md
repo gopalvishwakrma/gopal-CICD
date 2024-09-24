@@ -103,6 +103,9 @@ Log out and log back in for the group changes to take effect.
 ### 4. Configure Jenkins
 
 1. Open Jenkins in your web browser: `http://your_server_ip:8080`
+
+![Jenkins Status](assets/jenkins_login.png)
+
 2. Retrieve the initial admin password:
    ```bash
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -188,8 +191,6 @@ Set up a webhook in your GitHub repository to trigger Jenkins builds on code pus
 1. Push your code to the GitHub repository
 2. Jenkins will automatically pull the code, build the Docker image, and deploy your application
 3. Access your application at `http://your_server_ip:3000`
-
-![Jenkins Status](assets/jenkins_login.png)
 
 To manually trigger a build:
 1. Go to your Jenkins project
