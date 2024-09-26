@@ -1,4 +1,4 @@
-# CI/CD Setup for AlmaLinux
+# Seamless Deployment of Node.js Apps with Jenkins and Docker
 
 This project highlights my work automating the build and deployment of a Node.js app using Jenkins and Docker on AlmaLinux. I set up a CI/CD pipeline to automatically pull code from Git, build a Docker image, and deploy the app in a container. This system ensures continuous integration and delivery, streamlining development by eliminating the need for manual updates.
 
